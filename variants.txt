@@ -1,0 +1,20 @@
+v1
+    Reference software:
+        ascon
+
+    Architecture description:
+        Multi-cycle were one (1) 5-bit S-Box is computed each clock cycle during permutation.
+
+    Key setup time:
+        0
+
+    Execution time of authenticated encryption:
+        1700 + Nm*421
+
+    Execution time of authenticated decryption:
+        1700 + Nm*421
+
+    Non-default generic settings:
+        G_W = 8
+        G_SW = 8
+        
